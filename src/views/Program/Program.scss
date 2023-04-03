@@ -1,0 +1,83 @@
+// Programs CSS
+.section {
+  .program {
+    @media screen and (max-width: 800px) {
+      img {
+        margin-top: 0;
+        width: 15rem;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        border-radius: 100%;
+      }
+
+      .highlight {
+        .row {
+          display: flex;
+          flex-direction: column-reverse;
+        }
+      }
+
+      .row{
+        .block{
+          opacity: 0;
+        }
+      }
+    }
+    .row {
+      padding-top: 2.5vh;
+      padding-bottom: 2.5vh;
+
+      .block {
+        z-index: 0;
+        margin-top: 20px;
+        position: absolute;
+        width: 50%;
+        height: 13%;
+        left: -42px;
+
+        background: var(--color-gold);
+      }
+
+      .desc {
+        z-index: 1;
+      }
+
+      img {
+        margin-top: 30px;
+        position: relative;
+      }
+
+      .desc {
+        margin: auto;
+
+        h3 {
+          color: var(--color-black);
+          font-weight: 600;
+        }
+
+        h4 {
+          color: var(--color-black);
+          font-weight: 300;
+          line-height: 1.2;
+        }
+      }
+    }
+
+    .highlight {
+      background-color: var(--color-navy-blue);
+
+      .desc {
+        margin: auto;
+
+        h3 {
+          color: var(--color-white);
+          font-weight: 600;
+        }
+
+        h4 {
+          color: var(--color-white);
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
