@@ -14,7 +14,7 @@ function Footer() {
               <div className="column large-3 medium-3 w-1000-stack">
               </div>
               <div className="column large-6 medium-6 w-1000-stack ss-copyright">
-                <span>© 2021 JALAN MAJU AKADEMI. All rights reserved.</span>
+                <span>© 2023 JALAN MAJU AKADEMI. All rights reserved.</span>
               </div>
               <div className="column large-3 medium-3 w-1000-stack s-footer__social-block">
                 <ul className="s-footer__social">
